@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let students = [
+            {name: '⼩明', age: 18, gender: '男', hometown: '河北省'},
+            {name: '⼩红', age: 19, gender: '⼥', hometown: '河南省'},
+            {name: '⼩刚', age: 17, gender: '男', hometown: '⼭⻄省'},
+            {name: '⼩丽', age: 18, gender: '⼥', hometown: '⼭东省'}
+            ]       
+for (let index = 0; index < students.length; index++) {
+    console.log(students[index].name)
+    
+}
+
+let per ={
+    gender: '男',
+    age: 18,
+    hobby: '敲代码',
+    sayHi: function(){
+        console.log('hi~~')
+    },
+    eat: function(){
+        console.log('eat~~')
+    }
+
+}
+console.log(per.gender)
+console.log(per.age)
+console.log(per.hobby)
+per.sayHi()
+per.eat()
+// for(let k in per){
+//     console.log(per[k])
+// }
+    </script>
+</body>
+</html>
